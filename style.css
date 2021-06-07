@@ -1,0 +1,49 @@
+body{
+    background-color: #95B8D1;
+}
+#main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    width: 60%;
+    height: 500px;
+    background-color: #e2e2e2;
+}
+#card h1{
+    text-align: center;
+    font-family: sans-serif;
+} 
+input{
+    width: 50%;
+    display: inline-block;
+    height: 50px;
+    font-size: 20px;
+
+}
+button{
+    font-family: sans-serif;
+    background-color: #95B8D1;
+    color: #fff;
+    padding: 10px;
+    border-radius: 7px;
+    width: 170px;
+    font-size: 20px;
+}
+h3{
+    font-family: sans-serif;
+}
+
+
+
+
+/* classe reutilisable */
+.mt-4{
+    margin-top: 40px;
+}
